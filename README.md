@@ -154,6 +154,33 @@ This repository is a curated list of academic papers that I have read or plan to
 
 ---
 
+### Efficient system for LLM [TODO]
+
+1. **[vLLM]**
+    - **Title:** [vLLM: Easy, Fast, and Cheap LLM Serving with PagedAttention]
+    - **Published In:** [SOSP, 2023]
+    - **Summary:** 
+    - **Pros:** 
+    - **Cons:** 
+    - **Tags:** `#LLM` `#GPU/CPU`
+
+2. **[Powerinfer]**
+    - **Title:** [PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU]
+    - **Published In:** []
+    - **Summary:** 
+    - **Pros:** 
+    - **Discussions:** 
+    - **Tags:** `#CPU/GPU` `#LLM`
+
+2. **[Survey-LLM]**
+    - **Title:** [Full Stack Optimization of Transformer Inference: a Survey]
+    - **Published In:** []
+    - **Summary:** 
+    - **Pros:** 
+    - **Discussions:** 
+    - **Tags:** `#transformer` `#LLM`
+---
+
 ### Others
 
 <!-- Use this section for papers that don't fit into the above categories, numbering papers sequentially -->
