@@ -131,6 +131,14 @@ This repository is a curated list of academic papers that I have read or plan to
     - **Cons:** [TODO] 
     - **Tags:** `#Accelerator` `#FPGA` `#Transformer`
 
+4. **[preprint]**
+    - **Title:** [Understanding the Potential of FPGA-Based Spatial Acceleration for Large Language Model Inference]
+    - **Published In:** [, ]
+    - **Summary:**  
+    - **Pros:** [TODO]
+    - **Cons:** [TODO] 
+    - **Tags:** `#Accelerator` `#FPGA` `#LLM`  
+
 ---
 
 
@@ -172,7 +180,7 @@ This repository is a curated list of academic papers that I have read or plan to
     - **Discussions:** 
     - **Tags:** `#CPU/GPU` `#LLM`
 
-2. **[Survey-LLM]**
+3. **[Survey-LLM]**
     - **Title:** [Full Stack Optimization of Transformer Inference: a Survey]
     - **Published In:** []
     - **Summary:** 
