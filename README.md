@@ -1,37 +1,19 @@
 # My Paper Reading List
 
-This repository is a curated list of academic papers that I have read or plan to read, covering various topics in [FPGA, Graph Processing, Neural Network]. The list is organized by categories, with each paper indexed for easy reference.
+This repository is a curated list of academic papers that I have read or plan to read, covering various topics in FPGA, Graph Processing, Neural Network. The list is organized by categories, with each paper indexed for easy reference.
 
 ## Table of Contents
-### Multiple FPGA for graph processing framework
-- [ForeGraph: Exploring Large-scale Graph Processing on Multi-FPGA Architecture](#foregraph)
-- [GraVF-M: Graph Processing System Generation for Multi-FPGA Platforms](#gravf-m)
-### Multi-CPU/GPU for graph processing framework
-- [Gemini: A Computation-Centric Distributed Graph Processing System](#gemini)
-- [Gluon: A Communication-Optimizing Substrate for Distributed Heterogeneous Graph analytics](#gluon)
-- [Gluon-Async: A Bulk-Asynchronous System for Distributed and Heterogeneous Graph Analytics](#gluon-async)
-- [CuSP: A Customizable Streaming Edge Partitioneer for Distributed Graph Analtytics](#cusp)
-- [A Study of Graph Analytics for Massive Datasets on Distributed Multi-GPUs](#Analysis)
-### FPGA in HBM for graph processing framework
-- [ScalaGraph: A Scalable Accelerator for Massively Parallel Graph Processing](#scalagraph)
-- [ReGraph: Scaling Graph Processing on HBM-enabled FPGAs with Heterogeneous Pipelines](#regraph)
-### FPGA in networking
-- [FpgaNIC: An FPGA-based Versatile 100Gb SmartNIC for GPUs](#fpganic)
-- [ACCL: FPGA-Accelerated Collectives over 100 Gbps TCP-IP](#accl)
-- [ACCL+: an FPGA-Based Collective Engine for Distributed Applications](#accl+)
-### FPGA in accelerating Transformer/Llama
-- [FlightLLM: Efficient Large Language Model Inference with a Complete Mapping Flow on FPGAs](#flightllm)
-- [DFX: A Low-latency Multi-FPGA Appliance for Accelerating Transformer-based Text Generation](#dfx)
-- [SSR: Spatial Sequential Hybrid Architecture for Latency Throughput Tradeoff in Transformer Acceleration](#SSR)
-### FPGA in virtualization
-- [Nimblock: Scheduling for Fine-grained FPGA Sharing through Virtualization](#nimblock)
-- [Coyote: Do OS abstractions make sense on FPGAs](#coyote)
-### Others
+- [Multiple FPGA for Graph Processing](#multiple-fpga-for-graph-processing)
+- [Multi-CPU/GPU for Graph Processing](#multi-cpu-gpu-for-graph-processing)
+- [FPGA in Networking](#fpga-in-networking)
+- [FPGA in Accelerating Transformer/Llama](#fpga-in-accelerating-transformer-llama)
+- [FPGA in Virtualization](#fpga-in-virtualization)
+- [Efficient system for LLM](#efficient-system-for-llm)
 - [Others](#others)
 
 ---
 
-### Multiple FPGA for graph processing framework
+### Multiple FPGA for Graph Processing
 
 1. **[ForeGraph]**
     - **Title:** [ForeGraph: Exploring Large-scale Graph Processing on Multi-FPGA Architecture]
@@ -51,7 +33,7 @@ This repository is a curated list of academic papers that I have read or plan to
 
 ---
 
-### Multi-CPU/GPU for graph processing framework
+### Multi-CPU-GPU for Graph Processing
 
 1. **[Gemini]**
     - **Title:** [Gemini: A Computation-Centric Distributed Graph Processing System]
@@ -84,16 +66,17 @@ This repository is a curated list of academic papers that I have read or plan to
     - **Comments:** Faster than XtraPulp.
     - **Tags:** `#GraphProcessing` `#Partition`
 
-2. **[Analysis]**
+5. **[Analysis]**
     - **Title:** [A Study of Graph Analytics for Massive Datasets on Distributed Multi-GPUs]
     - **Published In:** [IPDPS, 2020]
     - **Summary:** Graph processing on Multi GPU platform. Also from the smae group. 
     - **Pros:** The Cartesian vertex cut (CVC) is quite suitable for graph partition in multiple GPUs. The overhead between CPU and GPU data communication in each super step for data sync is high.
     - **Cons:** (need profiling and summarize)
     - **Tags:** `#GraphProcessing` `#analysis`
+
 ---
 
-### FPGA in networking
+### FPGA in Networking
 
 1. **[FpgaNIC]**
     - **Title:** [FpgaNIC: An FPGA-based Versatile 100Gb SmartNIC for GPUs]
@@ -105,7 +88,7 @@ This repository is a curated list of academic papers that I have read or plan to
 
 ---
 
-### FPGA in Transformer and LLM
+### FPGA in Accelerating Transformer-Llama
 
 1. **[DFX]**
     - **Title:** [DFX: A Low-latency Multi-FPGA Appliance for Accelerating Transformer-based Text Generation]
@@ -141,8 +124,7 @@ This repository is a curated list of academic papers that I have read or plan to
 
 ---
 
-
-### FPGA in virtualization
+### FPGA in Virtualization
 
 1. **[Nimblock]**
     - **Title:** [Nimblock: Scheduling for Fine-grained FPGA Sharing through Virtualization]
@@ -162,7 +144,7 @@ This repository is a curated list of academic papers that I have read or plan to
 
 ---
 
-### Efficient system for LLM [TODO]
+### Efficient system for LLM
 
 1. **[vLLM]**
     - **Title:** [vLLM: Easy, Fast, and Cheap LLM Serving with PagedAttention]
@@ -191,5 +173,10 @@ This repository is a curated list of academic papers that I have read or plan to
 
 ### Others
 
-<!-- Use this section for papers that don't fit into the above categories, numbering papers sequentially -->
-
+1. **[Paper Title]**
+    - **Title:** [Paper Title]
+    - **Published In:** [Conference/Journal, Year]
+    - **Summary:** [Brief summary of the paper]
+    - **Pros:** [Pros of the paper]
+    - **Cons:** [Cons of the paper]
+    - **Tags:** `#Tag1` `#Tag2`
